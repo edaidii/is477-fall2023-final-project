@@ -17,30 +17,27 @@ if response.status_code == 200:
 
 with open('car+evaluation.zip', mode='wb') as f:
     f.write(response.content)
-#made an additional revision from the first submission to properly match and correct the variable filename
+
 filename_car = 'car+evaluation.zip'
 with open(filename_car, mode='rb') as f:
     data = f.read()
     sha256hash_car = hashlib.sha256(data).hexdigest()
 
 #determining if the hashes match up
-#made an additional revision from the first submission to properly run the and operator by adding parentheses
 if car_zip_hash != sha256hash_car:
     print("Computed hash does not match expected hash")
 else:
     print("Computed hash matches expected hash")
 
-#hashes computed manually
+#csv hash computed manually
 car_csv_hash = 'b703a9ac69f11e64ce8c223c0a40de4d2e9d769f7fb20be5f8f2e8a619893d83'
 
-#made an additional revision from the first submission to properly match and correct the variable filename
 filename_car_csv = r'/Users/edward/is477-fall2023-final-project/data/car+evaluation/car.csv'
 with open(filename_car_csv, mode='rb') as f:
     data = f.read()
     sha256hash_car_csv = hashlib.sha256(data).hexdigest()
 
 #determining if the hashes match up
-#made an additional revision from the first submission to properly run the and operator by adding parentheses
 if car_csv_hash != sha256hash_car_csv:
     print("Computed hash does not match expected hash")
 else:
