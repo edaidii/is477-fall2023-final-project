@@ -15,7 +15,9 @@ c.	I will not include the data in my own repository as it’s stated that I cann
 
 ## Workflow
 
-###
+![Alt text](graph.png)
+
+### 
 a.	The data license that I would use is the Creative Commons CCZero which is the most open data license. I selected this choice because I don’t need to copyright my dataset nor profit off of it in any means. By choosing a public domain license, I look forward to more collaboration instead and it does not matter to me who uses the data so long as it’s not for malicious purposes
 
 ## Reproducing
@@ -54,10 +56,13 @@ Use the following scripts "prepare_data.py", "reproduce_adult", and "reproduce_r
 4. Check the file uploads
 There should be text files in the results folder labeled as "adult_reconstructed.txt", "income_threshold.pdf", and "uci_adult_results.txt" with the accuracies labeled. 
 
-## Software License
+## Licenses
 
-### 
-a.	The license that I choose to use is the MIT license because it allows the widest adoption, fewest restrictions, and allows for open and easy collaboration and transparency amongst everyone who access the source code. Given that none of the software involved will require any additional permission, a permissive license like the MIT license is preferred. 
+### Software License
+a.	The license that I choose to use is the MIT license because it allows the widest adoption, fewest restrictions, and allows for open and easy collaboration and transparency amongst everyone who access the source code. Given that none of the software involved will require any additional permission, the MIT license is preferred. 
+
+### Data License
+a. The license for this dataset is Creative Commons Attribution 4.0 International which means that it's freely able to be used for any purpose with no restrictions on distribution or modification.
 
 ## Analysis
 

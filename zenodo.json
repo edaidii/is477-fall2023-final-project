@@ -1,0 +1,20 @@
+{
+    "title": "Car Evaluation Analysis Final Project",
+    "description": "In this project, we are looking to create an end-to-end reproducible Analysis that looks into the Car Evaluation dataset. We are specifically looking at the evaluation of car condition compared to maintenance cost",
+    "creators": [
+    {
+    "name": "Zhang, Edward",
+    "orcid": "0009-0002-1990-1311"
+    }
+    ],
+    "related_identifiers": [
+    {
+    "scheme": "doi",
+    "identifier": "https://doi.org/10.0000/00000",
+    "relation": "cites"
+    }
+    ],
+    "access_right": "open",
+    "upload_type": "software",
+    "license": "MIT"
+    }
