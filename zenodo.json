@@ -1,20 +1,24 @@
-{
-    "title": "Car Evaluation Analysis Final Project",
-    "description": "In this project, we are looking to create an end-to-end reproducible Analysis that looks into the Car Evaluation dataset. We are specifically looking at the evaluation of car condition compared to maintenance cost",
-    "creators": [
+
     {
-    "name": "Zhang, Edward",
-    "orcid": "0009-0002-1990-1311"
-    }
-    ],
-    "related_identifiers": [
-    {
-    "scheme": "doi",
-    "identifier": "https://doi.org/10.0000/00000",
-    "relation": "cites"
-    }
-    ],
-    "access_right": "open",
-    "upload_type": "software",
-    "license": "MIT"
-    }
+        "title": "Car Evaluation Analysis Final Project",
+        "description": "This dataset is used for the evaluation of cars based on several characteristics defining their acceptability.",
+        "creators": [
+          {
+            "name": "Edward Zhang",
+            "affiliation": "University of Illinois at Urbana-Champaign",
+            "orcid": "0009-0002-1990-1311"
+          }
+        ],
+        "access_right": "open",
+        "license": "cc-by-4.0",
+        "keywords": ["machine learning", "car evaluation", "classification"],
+        "related_identifiers": [
+          {
+            "identifier": "https://doi.org/10.24432/C5JP48",
+            "relation": "isSupplementTo",
+            "resource_type": "dataset",
+            "scheme": "doi"
+          }
+        ],
+        "upload_type": "dataset"
+      }

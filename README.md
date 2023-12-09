@@ -48,6 +48,8 @@ Look to the environment.log file that contains all of the information that was u
 
     Create a Snakefile and a dag.py to determine whether the workflows are being followed as referenced by the image - graph.png - in the above section.
 
+    Run Snakemake --cores 1 reproduce.py to see if there will be a repduction.txt
+
     2c. Install dependencies in the virtual environment through pip install -r requirements.txt
 
     2d. Reference environment.log to check if there are any dependencies that you may have missed in case your code does not work. 
@@ -69,3 +71,5 @@ a. The license for this dataset is Creative Commons Attribution 4.0 Internationa
 ## Citations
 
 ###
+Bohanec, M. (1997). Car evaluation. UCI Machine Learning Repository. https://archive.ics.uci.edu/dataset/19/car+evaluation 
+

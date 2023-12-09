@@ -21,3 +21,12 @@ rule analyze:
     "results/maintenance_cost_class_value.png"
   shell:
   "python scripts/analysis.py"
+
+rule reproduce:
+  input:
+    "results/maintenance_cost_class_value.png",
+    "profiling/profiling.html"
+  output:
+    "results/reproducibility_check.txt"
+  shell:
+    "python scripts/reproduce.py"
